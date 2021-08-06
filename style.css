@@ -1,0 +1,121 @@
+#háttérkép{
+  background-image: url("/anakin1.png");
+  background-size:contain;
+  background-position:center;
+  position:relative;
+  width:1366px;
+  height:430px;
+  }
+header h3, h1{
+  font-family: 'Abril Fatface', cursive;
+  position:absolute;
+  font-size:38px;
+  left:315px;
+  bottom:85px;
+  }
+header h1{
+  font-size:73px;
+  bottom:-10px;
+}
+#első{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:20px;
+  line-height:28px;
+  margin:60px 240px 0 315px;
+}
+li{
+  list-style-type:square;
+  margin-right:220px;
+  line-height:24px;
+}
+.idézet{
+  font-family: 'Abril Fatface', cursive;
+  background:#222;
+  width:900px;
+  height:200px;
+  color:white;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:30px;
+}
+#elsőIdézet{
+  text-align:center;
+  background:#222;
+  font-size:57px;
+  margin-top:-18px;
+}
+#elsőJel, cite::before{
+  content:'\201C';
+  font-size:100px;
+  line-height:60px;
+  padding:22px 22px;
+  margin:0;
+}
+cite{
+  padding:0px;
+  margin-left:-50px;
+}
+.másod{
+  font-family: 'Josefin Sans', sans-serif;
+  color:#222;
+  margin:30px 0 0 315px;
+}
+.bm24{
+  font-size:24px;
+  line-height:50px;
+  margin:75px 180px 0 0;
+}
+.kicsi{
+  font-size:15px;
+  margin:15px 255px -60px 0;
+  line-height:25px;
+  font-weight:100;
+}
+.idézet.második{
+  width:900px;
+  padding-top:-30px;
+  margin-top:120px;
+}
+.másodikIdézet{
+  text-align:start;
+  background:#222;
+  font-size:57px;
+  margin:-18px 0 0 0;
+  padding-left:40px;
+  line-height:10px;
+}
+.másodikSor{
+  text-align:start;
+  background:#222;
+  font-size:57px;
+  margin-top:-18px;
+  padding-left:40px;
+  line-height:200px;
+}
+.másodikJel, cite::before{
+  content:'\201C';
+  font-size:100px;
+  line-height:50px;
+  padding:22px 22px;
+  margin:0;
+}
+.dőlt{margin-top:0}
+hr{margin:60px 200px 0px -40px;}
+.bm24.margin{padding-top:70px;}
+button{
+  font-family: 'Merriweather', serif;
+  font-size:10px;
+  border-radius:20px;
+  height:40px;
+  width:125px;
+  background:white;
+  border:1px solid lightgray;
+  position:fixed;
+  left:20px;
+  bottom:20px;
+  box-shadow:1px 5px 5px 3px #F8F8FF;
+}
+span{
+ font-size:20px;
+ font-style:italic;
+}
